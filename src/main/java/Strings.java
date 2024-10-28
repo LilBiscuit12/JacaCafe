@@ -6,6 +6,9 @@ public class Strings {
         if (name.equals("Stefano")){
             System.out.println("The name is Stefano");
         }
+        if (name.equalsIgnoreCase("stefano")){
+            System.out.println("The name is stefano");
+        }
 
     }
 }
